@@ -18,4 +18,4 @@ GNU gdb (GDB) 11.2
 
 ## Run  
 
-`cd project` and `nim c -r hello`  
+`cd project` and `nim c -r xxxxx`  
