@@ -18,4 +18,10 @@ GNU gdb (GDB) 11.2
 
 ## Run  
 
+### Simple Project  
+
 `cd project` and `nim c -r xxxxx`  
+
+### Nimble Project  
+
+`cd project` and `nimble build` and `./binaryfile`  
