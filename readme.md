@@ -2,7 +2,8 @@
 
 For Studying Nim.
 
-## VSCode extension
+## VSCode extension  
+
  - Dev Containers(Visual Studio Code Remote - Containers)
 
 ## Versions  
@@ -20,8 +21,14 @@ GNU gdb (GDB) 11.2
 
 ### Simple Project  
 
-`cd project` and `nim c -r xxxxx`  
+`cd project` and `nim c -r jp_str`  
 
-### Nimble Project  
+### How to Use karux and karun  
 
-`cd project` and `nimble build` and `./binaryfile`  
+`nimble install karux`  
+
+`nim c /root/.nimble/pkgs/karax-1.2.2/karax/tools/karun`  
+
+`/root/.nimble/pkgs/karax-1.2.2/karax/tools/karun -r src/karax_test.nim`  
+
+`/root/.nimble/pkgs/karax-1.2.2/karax/tools/karun -r src/solioquy.nim`  

@@ -1,4 +1,3 @@
-# nimble install karax
 # nim js src/karax_test.nim (jsファイルとしてコンパイル)
 include karax/prelude
 
