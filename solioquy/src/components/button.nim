@@ -11,7 +11,8 @@ proc renderButton*(caption: string, disabled: bool, onClickProc: () -> void): VN
                 (fontStyle, "oblique".kstring),
                 (color, "white".kstring),
                 (backgroundColor, "skyblue".kstring),
-                (border, "none".kstring)
+                (border, "none".kstring),
+                (borderRadius, "5%".kstring)
             )
         ):
             text caption
