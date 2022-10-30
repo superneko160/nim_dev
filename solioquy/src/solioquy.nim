@@ -1,5 +1,6 @@
 import sugar
 include karax/prelude
+import karax/vstyles
 import components/soloquybox
 
 type
@@ -14,7 +15,10 @@ proc main() =
     var state = initState()
     proc createDom(): VNode =
         buildHtml(tdiv):
-            h1(text "Soloquy")
+            h1(
+                style = style((fontStyle, "oblique".kstring), (color, "skyblue".kstring))
+            ):
+                text "Soloquy"
             render state.soloquyBox
     setRenderer createDom
 
