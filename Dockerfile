@@ -1,3 +1,3 @@
-FROM nimlang/nim:1.6.8-alpine-slim
+FROM nimlang/nim:2.2.6-alpine-slim
 
 RUN apk update && apk add gcc gdb git nimble
