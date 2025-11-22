@@ -1,4 +1,3 @@
-# Compile and Run: nim c -r hogehoge
 import unicode
 
 let str = "日本語"
